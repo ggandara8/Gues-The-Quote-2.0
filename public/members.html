@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Welcome Page GTQ</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merienda+One&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="stylesheets/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/logout">
+        <h3>Logout</h3>
+      </a>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="card">
+      <div class="card-header">
+        <h2>Welcome to Guess The Quote!</h2>
+      </div>
+      <div class="card-body">
+        <a type="button" class="btn btn-primary" href="/game">Start Game</a>
+        <a type="button" class="btn btn-primary hs">View High Score</a>
+        <div class="usersHS">
+        <h5 class="email"></h5>
+        <h5 class="highScore"></h5>
+        </div>
+        <div>
+          <h2 class="rules">Rules:</h2>
+          <ol>
+            <li>A random quote will appear and you will have to guess who said it!</li>
+            <br>
+            <li>You will be given 10 questions.</li>
+            <br>
+            <li>Every guess you get correct will give you 2 points.</li>
+            <br>
+            <li>If you have played multiple times, you can see your all time 
+              high score at the end of the Quiz.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/members.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+form.signup,
+form.login {
+  margin-top: 50px;
+}
+
+body {
+background-color: #D5E5F2;
+font-family: 'Merienda One', cursive;
+color: #213440;
+}
+
+.quote {
+  margin-top: 10px;
+}
+
+.container {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: -4px -4px 8px gray, 4px 4px 8px black;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+.first {
+  text-align: left;
+}
+
+.btn {
+  margin: 10px;
+  color: #010440;
+  background-color: aquamarine;
+  letter-spacing: 5px;
+  border-radius: 12px;
+}
+
+label:hover{
+  color:#076d86;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+ol{
+  text-align: left;
+}
+.rules {
+  text-align: left;
+  padding-bottom: 10px;
+}
+.navbar{
+  text-align: center;
+}
+.correct{
+  color: green;
+  font-size: 25px;
+}
+.incorrect{
+  color: red;
+  font-size: 25px;
+}
