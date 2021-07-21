@@ -1,4 +1,4 @@
-# Guess The Quote
+# Guess The Quote 2.0
 
 ## Description
 
@@ -26,5 +26,7 @@ MIT
 Gerardo Gandara
 
 ## Deployment
+
+https://guess-the-quote-2.herokuapp.com/
 
 # Guess-The-Quote-2.0
